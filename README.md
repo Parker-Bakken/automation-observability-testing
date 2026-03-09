@@ -71,6 +71,17 @@ Failures should produce reusable learning, not repeated chaos.
 
 ---
 
+## Automation Observability Flow
+
+```mermaid
+flowchart LR
+    A[Trigger Event] --> B[Input Validation]
+    B --> C[Workflow Logic]
+    C --> D[Structured Logging]
+    C --> E[Retry / Fallback Logic]
+    E --> F[Failure Alerting]
+    D --> G[Execution Review]
+    F --> G
 ## Repository structure
 
 ```text
