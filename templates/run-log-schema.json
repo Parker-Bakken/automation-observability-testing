@@ -1,0 +1,13 @@
+{
+  "workflow_name": "string",
+  "run_id": "string",
+  "trigger_source": "string",
+  "started_at": "ISO-8601 timestamp",
+  "ended_at": "ISO-8601 timestamp",
+  "duration_ms": 0,
+  "status": "success | failed | partial",
+  "input_summary": {},
+  "output_summary": {},
+  "retry_count": 0,
+  "error_summary": "string"
+}
