@@ -1,0 +1,12 @@
+{
+  "workflow_name": "string",
+  "run_id": "string",
+  "step_name": "string",
+  "timestamp": "ISO-8601 timestamp",
+  "error_type": "validation | api | auth | timeout | unknown",
+  "error_message": "string",
+  "retryable": true,
+  "retry_attempt": 0,
+  "affected_record_id": "string",
+  "resolution_status": "open | resolved | ignored"
+}
