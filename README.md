@@ -2,6 +2,22 @@
 
 Production-grade observability, testing, alerting, and failure-handling patterns for workflow automation systems.
 
+🚧 **Project Status: Active Development**
+
+This repository is an ongoing project focused on documenting and improving production-grade automation reliability practices.
+
+New materials are added as additional patterns, testing strategies, and observability techniques are developed and validated in real-world automation systems.
+
+Planned additions include:
+
+* additional workflow observability examples
+* automation reliability scorecards
+* alert routing architectures
+* synthetic workflow testing strategies
+* expanded automation incident response playbooks
+
+Contributions, feedback, and suggestions are welcome as the framework continues to evolve.
+
 ---
 
 ## Overview
