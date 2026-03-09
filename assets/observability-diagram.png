@@ -1,0 +1,9 @@
+```mermaid
+flowchart LR
+    A[Trigger] --> B[Validation]
+    B --> C[Core Workflow Logic]
+    C --> D[Structured Logging]
+    C --> E[Retry / Fallback]
+    E --> F[Alerting]
+    D --> G[Execution Review]
+    F --> G
